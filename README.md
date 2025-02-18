@@ -111,3 +111,4 @@ Para mais informações, entre em contato com o desenvolvedor:
 
 Linkedin: https://www.linkedin.com/in/ivan-vinicius-de-padua/
 Email: fullstackpaduavinicius@gmail.com
+vercel: https://landing-page-escritorio-smoky.vercel.app/
