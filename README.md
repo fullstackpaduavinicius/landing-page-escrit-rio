@@ -57,7 +57,7 @@ O projeto está dividido em duas partes principais: o backend e o frontend.
 
 1. Clone o repositório:
 
-   git clone https://github.com/fullstackpaduavinicius/landing-page-escrit-rio.git
+   git clone https://github.com/fullstackpaduavinicius/landing-page-escritorio.git
 
 2. Navegue até a pasta do backend:
    cd backend
