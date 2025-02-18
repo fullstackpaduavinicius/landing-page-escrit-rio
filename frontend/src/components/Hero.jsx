@@ -1,6 +1,6 @@
 import React from "react";
 
-// Exemplo de uso no Hero.jsx
+
 import { motion } from "framer-motion";
 
 const Hero = () => {

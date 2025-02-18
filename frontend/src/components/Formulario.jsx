@@ -1,11 +1,6 @@
-import React, { useState } from "react";
-
+import React, { useState } from "react"; 
 import { motion } from "framer-motion";
-import { API_BASE_URL } from "../services/api"; // Importe a URL do backend
-
-const response = await fetch(`${API_BASE_URL}/api/cadastrar`) // Use a URL centralizada
-
-
+import { API_BASE_URL } from "../services/api"; 
 const Formulario = () => {
   const [formData, setFormData] = useState({
     nome: "",
@@ -39,7 +34,7 @@ const Formulario = () => {
     setMensagem("");
 
     try {
-      const response = await fetch("http://localhost:5000/api/cadastrar", {
+      const response = await fetch(`${API_BASE_URL}/api/cadastrar`, {  
         method: "POST",
         headers: {
           "Content-Type": "application/json",
